@@ -16,22 +16,13 @@ def readFile(args):
 	return nprocs, vector
 
 def filterMails(args):
-	sp1 = args			
-		
-	sp = sp1[0].split("@")
-	
-	if len(sp) == 2:
-		aux = sp[1][:-1]
+    sp = args[0]
 
-		if(aux == "gmail.com"):				
-			ret = sp1[0][:-1]
-		else:
-			ret = ""
-	else:
-		ret = ""
-
-	
-	return ret
+    aux = sp[1][:-1]
+    if re.search(regex,aux):
+            return sp[0][:-1]
+    else:
+            return ""
 
 def printMails(args):
 	if args[0] != "":
