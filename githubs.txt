@@ -1,0 +1,11 @@
+https://github.com/gabriela-ogoncalves/sucuri-negative-images/blob/main/main.py#L24
+
+a gente viu esse video aqui https://youtu.be/8EM8DZ8SqZw
+ e nos baseamos nele pra fazer
+ficou assim https://github.com/gabriela-ogoncalves/sucuri-negative-images
+ a gente basicamente mudou essa funcao aqui https://github.com/gabriela-ogoncalves/sucuri-negative-images/blob/main/main.py#L24
+ vou te mandar uns trabalhos antigos que me mandaram
+ aí vc pode se basear neles tb
+ esses aqui sao de manipulação de imagens tb:
+https://github.com/vinivst/faceRecognitionWithSucuri
+https://github.com/renanbaqui/sistdist -- validação de email
