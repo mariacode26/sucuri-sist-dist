@@ -1,6 +1,9 @@
 import sys, os, time, math
+import re
 from pyDF import *
 sys.path.append(os.environ['PYDFHOME'])
+
+regex =  '^[a-z0-9]+[\._]?[a-z0-9]+[@]\w+[.]\w{2,3}$'
 	
 def readFile(args):
 	filename = args[0]
