@@ -35,7 +35,7 @@ def filterMails(args):
 
 def printMails(args):
 	if args[0] != "":
-		print args[0]
+		print(args[0])
 
 
 nprocs = int(sys.argv[1])
@@ -64,4 +64,4 @@ t0 = time.time()
 sched.start()
 t1 = time.time()
 
-print "Execution time %.3f" %(t1-t0)
+print("Execution time %.3f" %(t1-t0))
